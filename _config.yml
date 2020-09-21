@@ -20,7 +20,7 @@
 
 title:            'Wax'
 description:      'Minimal Exhibitions with Jekyll'
-url:              'https://minicomp.github.io'
+url:              ''
 baseurl:          '/wax_remote_theme_test'
 copyright:        'Example copyright org, 2019'
 logo:             '/assets/logo.png'
