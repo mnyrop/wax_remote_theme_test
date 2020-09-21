@@ -14,5 +14,5 @@ script:
   - docker exec -it wax bash -l -c "bundle exec rake wax:iiif qatar;"
   - docker exec -it wax bash -l -c "bundle exec rake wax:pages qatar;"
   - docker exec -it wax bash -l -c "bundle exec rake wax:search main;"
-  - docker exec -it wax bash -l -c "bundle exec jekyll build -d _site/wax && bundle exec rake wax:test;"
+  - docker exec -it wax bash -l -c "bundle exec jekyll build -d _site/wax_remote_theme_test && bundle exec rake wax:test;"
   - docker stop $(docker ps -aq)
