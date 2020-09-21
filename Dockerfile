@@ -30,8 +30,8 @@ RUN /bin/bash -l rvm install ruby-2.6.3
 RUN /bin/bash -l -c ". ~/.profile && rvm --default use ruby-2.6.3"
 
 RUN /bin/bash -l -c ". ~/.profile && gem update --system"
-RUN /bin/bash -l -c ". ~/.profile && gem install bundler -v 2.0.2"
-RUN /bin/bash -l -c ". ~/.profile && gem install rake -v 12.3.3"
+RUN /bin/bash -l -c ". ~/.profile && gem install bundler"
+RUN /bin/bash -l -c ". ~/.profile && gem install rake"
 
 # Working directory
 RUN mkdir /wax
