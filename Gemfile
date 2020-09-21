@@ -2,9 +2,8 @@
 
 source 'https://rubygems.org'
 
-gem 'github-pages', group: :jekyll_plugins
 gem 'html-proofer'
-gem "jekyll-remote-theme"
+gem 'jekyll-remote-theme'
 gem 'wax_tasks'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
