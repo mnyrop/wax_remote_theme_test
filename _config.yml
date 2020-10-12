@@ -31,7 +31,7 @@ logo:             '/assets/logo.png'
 # Best not to mess with these unless you know what you're doing!
 plugins:
   - jekyll-remote-theme
-remote_theme: 'mnyrop/wax_theme_submodule@main'
+remote_theme: 'mnyrop/wax_remote_theme@main'
 permalink: 'pretty'
 sass:
   style: compressed
